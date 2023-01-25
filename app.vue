@@ -1,5 +1,5 @@
 <template>
   <div>
-    <AlertsAlert />
+    <CardsCard />
   </div>
 </template>

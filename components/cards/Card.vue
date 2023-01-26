@@ -9,7 +9,7 @@
             <div v-show='menu' class="border my-7 w-32 absolute right-2 p-2">
                 <a href="e">Edit</a><br/>
                 <a href="ed">Export Data</a><br/>
-                <a href="d" class='text-red-500'>Delete</a>
+                <a href="" class='text-red-500'>Delete</a>
             </div>
         <div class='grid place-items-center text-center p-2'>
             <div class="pt-6">

@@ -1,11 +1,12 @@
 <template>
-  <div class="text-center pt-8">
+  <div class="flex justify-center">
     <button v-show="modalButton" @click="Toggle()" class="bg-blue-800 text-white border p-2 rounded-xl">
       Toggle modal
     </button>
-    <div v-show='modal' class="p-5 m-2 text-left w-3/5 border">
-    <div class='flex justify-between items-center'>
-      <h3 class="font-bold p-2">Static Modal</h3>
+    <div v-show='modal' class=' bg-black bg-opacity-60 flex justify-center'>
+      <div class="p-5 m-2 bg-white text-left w-3/5 border">
+        <div class='flex justify-between items-center'>
+          <h3 class="font-bold p-2">Static Modal</h3>
           <button @click="Toggle()" class=''><svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -13,13 +14,14 @@
             stroke-width="1.5"
             stroke="currentColor"
             class="w-6 h-6"
-          >
+            >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               d="M6 18L18 6M6 6l12 12"
             />
-          </svg></button>
+          </svg>
+          </button>
       </div>
       <hr />
       <p class="p-2">
@@ -56,6 +58,7 @@
       </div>
     </div>
   </div>
+</div>  
 </template>
 
 <script lang="ts" setup>
